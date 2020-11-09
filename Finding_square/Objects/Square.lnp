@@ -1,0 +1,3 @@
+".\Objects\F_square.obj" 
+TO ".\Objects\Square" 
+PRINT(".\Listings\Square.m51")

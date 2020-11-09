@@ -1,0 +1,46 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/05/2020  14:14:07  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE .\Objects\F_square.obj TO .\Objects\Square PRINT (.\Listings\Square.m51)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\F_square.obj (F_SQUARE)
+
+
+LINK MAP OF MODULE:  .\Objects\Square (F_SQUARE)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0009H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\Square (F_SQUARE)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        F_SQUARE
+  D:00F0H         SYMBOL        B
+  C:0000H         LINE#         3
+  C:0003H         LINE#         4
+  C:0004H         LINE#         5
+  C:0006H         LINE#         6
+  C:0007H         LINE#         7
+  C:0008H         LINE#         8
+  -------         ENDMOD        F_SQUARE
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0009H BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=9
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

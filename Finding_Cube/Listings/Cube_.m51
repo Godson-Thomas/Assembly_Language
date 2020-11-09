@@ -1,0 +1,51 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/05/2020  14:31:51  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE .\Objects\cube.obj TO .\Objects\Cube_ PRINT (.\Listings\Cube_.m51)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\cube.obj (CUBE)
+
+
+LINK MAP OF MODULE:  .\Objects\Cube_ (CUBE)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0010H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\Cube_ (CUBE)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        CUBE
+  D:00F0H         SYMBOL        B
+  C:0000H         LINE#         3
+  C:0003H         LINE#         4
+  C:0004H         LINE#         5
+  C:0006H         LINE#         6
+  C:0008H         LINE#         7
+  C:0009H         LINE#         8
+  C:000AH         LINE#         9
+  C:000CH         LINE#         10
+  C:000DH         LINE#         11
+  C:000EH         LINE#         12
+  C:000FH         LINE#         13
+  -------         ENDMOD        CUBE
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0010H BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=16
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,3 @@
+".\Objects\cube.obj" 
+TO ".\Objects\Cube_" 
+PRINT(".\Listings\Cube_.m51")

@@ -1,0 +1,33 @@
+A51 MACRO ASSEMBLER  TWO_S                                                                11/05/2020 14:44:14 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\Two_s.obj
+ASSEMBLER INVOKED BY: D:\Keil\C51\BIN\A51.EXE Two_s.asm SET(SMALL) DEBUG PRINT(.\Listings\Two_s.lst) OBJECT(.\Objects\Tw
+                      o_s.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     $mod51 
+0000                   2     org 00H
+0000 904700            3     MOV dptr,#4700H
+0003 E0                4     movx a,@dptr
+0004 F4                5     CPL a
+0005 2401              6     add a,#01H
+0007 A3                7     inc dptr
+0008 F0                8     MOVX @dptr,a
+                       9     end
+A51 MACRO ASSEMBLER  TWO_S                                                                11/05/2020 14:44:14 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

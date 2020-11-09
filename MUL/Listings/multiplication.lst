@@ -1,0 +1,35 @@
+A51 MACRO ASSEMBLER  MULTIPLICATION                                                       10/15/2020 15:18:58 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\multiplication.obj
+ASSEMBLER INVOKED BY: D:\Keil\C51\BIN\A51.EXE multiplication.asm SET(SMALL) DEBUG PRINT(.\Listings\multiplication.lst) O
+                      BJECT(.\Objects\multiplication.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0x0000
+0000 900100            2     MOV DPTR,#0x0100
+0003 E0                3     MOVX a,@DPTR
+0004 F5F0              4     MOV b,a
+0006 A3                5     INC DPTR
+0007 E0                6     MOVX a,@DPTR
+0008 A4                7     MUL ab
+0009 A3                8     INC DPTR
+000A F0                9     MOVX @DPTR,a
+                      10     END
+A51 MACRO ASSEMBLER  MULTIPLICATION                                                       10/15/2020 15:18:58 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
