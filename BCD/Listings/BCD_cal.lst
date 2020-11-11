@@ -1,0 +1,40 @@
+A51 MACRO ASSEMBLER  BCD_CAL                                                              11/11/2020 14:25:26 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\BCD_cal.obj
+ASSEMBLER INVOKED BY: D:\Keil\C51\BIN\A51.EXE BCD_cal.asm SET(SMALL) DEBUG PRINT(.\Listings\BCD_cal.lst) OBJECT(.\Object
+                      s\BCD_cal.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     $mod51 
+0000                   2     ORG 00H
+0000 904000            3     MOV dptr,#4000H
+0003 E0                4     MOVX a,@DPTR
+0004 FA                5     MOV R2,a
+0005 54F0              6     ANL a,#0F0H
+0007 C4                7     SWAP a
+0008 4430              8     ORL a,#30H
+000A A3                9     INC DPTR
+000B F0               10     MOVX @DPTR,a
+000C EA               11     MOV A,R2
+000D 540F             12     ANL a,#0FH
+000F 4430             13     ORL a,#30H
+0011 A3               14     INC DPTR
+0012 F0               15     MOVX @DPTR,a
+                      16     end
+A51 MACRO ASSEMBLER  BCD_CAL                                                              11/11/2020 14:25:26 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
